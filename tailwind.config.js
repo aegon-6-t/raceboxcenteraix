@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      // Configuration de la police Urbanist
+      fontFamily: {
+        'sans': ['Urbanist', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 } 
